@@ -64,11 +64,14 @@ main{
 @media screen and (max-width:768px) {
   main {
     width: 100%;
-    float: none;
   }
   .step-box {
-    width: 100%;
-    margin-bottom: 10px;
+    float: none;
+    width: 90%;
+    margin: 20px auto;
+  }
+  .step-box:last-child{
+    margin: 0 auto;
   }
   .step-img1 .step-img2 .step-img3 {
     width:100%;
